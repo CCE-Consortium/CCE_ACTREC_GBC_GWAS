@@ -1,1 +1,1 @@
-
+Genome-wide association testing was performed using logistic regression in PLINK, adjusting for age, sex, and principal components to account for population stratification.
