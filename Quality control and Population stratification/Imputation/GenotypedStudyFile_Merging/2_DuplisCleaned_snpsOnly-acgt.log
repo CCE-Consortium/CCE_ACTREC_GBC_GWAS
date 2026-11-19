@@ -1,0 +1,33 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/10_MergingWithStudy/G2-N-1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged
+  --exclude /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/0_duplis-List.dupvar
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/1_DuplisCleaned_snpsOnly-acgt
+  --snps-only just-acgt
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/1_ConformGT/ConformGT_Output
+Start time: Fri Mar 21 09:08:21 2025
+
+Random number seed: 1742528301
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+9716684 variants loaded from .bim file.
+6634 people (2847 males, 3787 females) loaded from .fam.
+6634 phenotype values loaded from .fam.
+--exclude: 9716684 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 6634 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is in [0.9999995, 1).
+9716684 variants and 6634 people pass filters and QC.
+Among remaining phenotypes, 1369 are cases and 5265 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/1_DuplisCleaned_snpsOnly-acgt.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/1_DuplisCleaned_snpsOnly-acgt.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/1_DuplisCleaned_snpsOnly-acgt.fam
+... done.
+
+End time: Fri Mar 21 09:09:02 2025

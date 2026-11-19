@@ -1,0 +1,51 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bed /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005.bed
+  --bim /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005.bim
+  --bmerge /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/1-1_ConformGT-Aligned_StudyFiles_Merged/4_FixedAlignedStudyFile/G2_N_1875_StudyFiles_AlignedWithConformGT
+  --fam /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005_FIDs-IIDs_Phenos-Gens-Fixed.fam
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/10_MergingWithStudy/G2-N-1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/1_ConformGT/ConformGT_Output
+Start time: Thu Mar 20 16:11:58 2025
+
+Random number seed: 1742467318
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+6634 people loaded from
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005_FIDs-IIDs_Phenos-Gens-Fixed.fam.
+6634 people to be merged from
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/1-1_ConformGT-Aligned_StudyFiles_Merged/4_FixedAlignedStudyFile/G2_N_1875_StudyFiles_AlignedWithConformGT.fam.
+Of these, 0 are new, while 6634 are present in the base dataset.
+9716579 markers loaded from
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005.bim.
+299084 markers to be merged from
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/1-1_ConformGT-Aligned_StudyFiles_Merged/4_FixedAlignedStudyFile/G2_N_1875_StudyFiles_AlignedWithConformGT.bim.
+Of these, 105 are new, while 298979 are present in the base dataset.
+Performing single-pass merge (6634 people, 9716684 variants).
+Merged fileset written to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/10_MergingWithStudy/G2-N-1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged-merge.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/10_MergingWithStudy/G2-N-1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged-merge.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/10_MergingWithStudy/G2-N-1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged-merge.fam
+.
+9716684 variants loaded from .bim file.
+6634 people (2847 males, 3787 females) loaded from .fam.
+6634 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 6634 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is in [0.9999995, 1).
+9716684 variants and 6634 people pass filters and QC.
+Among remaining phenotypes, 1369 are cases and 5265 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/10_MergingWithStudy/G2-N-1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/10_MergingWithStudy/G2-N-1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/10_MergingWithStudy/G2-N-1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged.fam
+... done.
+
+End time: Thu Mar 20 16:19:51 2025

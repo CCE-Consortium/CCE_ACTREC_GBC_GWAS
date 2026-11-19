@@ -1,0 +1,32 @@
+PLINK v2.00a5.9LM 64-bit Intel (12 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/1_DuplisCleaned_snpsOnly-acgt
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/G2_N_1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged_FullyCleaned
+  --rm-dup force-first
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/1_ConformGT/ConformGT_Output
+Start time: Fri Mar 21 09:10:58 2025
+
+Random number seed: 1742528458
+201309 MiB RAM detected, ~152688 available; reserving 100654 MiB for main
+workspace.
+Using up to 12 threads (change this with --threads).
+6634 samples (3787 females, 2847 males; 6634 founders) loaded from
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/1_DuplisCleaned_snpsOnly-acgt.fam.
+9716684 variants loaded from
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/1_DuplisCleaned_snpsOnly-acgt.bim.
+1 binary phenotype loaded (1369 cases, 5265 controls).
+Note: Skipping --rm-dup since no duplicate IDs are present.
+Writing
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/G2_N_1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged_FullyCleaned.fam
+... done.
+Writing
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/G2_N_1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged_FullyCleaned.bim
+... done.
+Writing
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/11_CleaningQC/G2_N_1875_PostImpQC_maf-geno-0.005_Imp-Study-Merged_FullyCleaned.bed
+... done.
+
+End time: Fri Mar 21 09:11:24 2025
