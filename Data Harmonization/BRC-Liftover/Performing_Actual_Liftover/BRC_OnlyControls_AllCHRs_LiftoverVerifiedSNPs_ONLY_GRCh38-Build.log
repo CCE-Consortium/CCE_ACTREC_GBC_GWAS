@@ -1,0 +1,34 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/1_Only-Controls_RelevantCHRs
+  --extract /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.1_Verification_Of_LiftOver/SNPs_To_Keep_And_Extract_From_BRC-38_BIM.txt
+  --make-bed
+  --out /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/BRC_OnlyControls_AllCHRs_LiftoverVerifiedSNPs_ONLY_GRCh38-Build
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/Haplotypes_Exploration/HaplotypeBlocks_Covariates_Dec2024
+Start time: Mon Dec 23 14:14:49 2024
+
+Random number seed: 1734943489
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+743173 variants loaded from .bim file.
+2583 people (0 males, 2583 females) loaded from .fam.
+2583 phenotype values loaded from .fam.
+--extract: 738491 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2583 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.987479.
+738491 variants and 2583 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 2583 are controls.
+--make-bed to
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/BRC_OnlyControls_AllCHRs_LiftoverVerifiedSNPs_ONLY_GRCh38-Build.bed
++
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/BRC_OnlyControls_AllCHRs_LiftoverVerifiedSNPs_ONLY_GRCh38-Build.bim
++
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/BRC_OnlyControls_AllCHRs_LiftoverVerifiedSNPs_ONLY_GRCh38-Build.fam
+... done.
+
+End time: Mon Dec 23 14:14:52 2024

@@ -1,0 +1,18 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --make-bed
+  --out /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/7_BRC-Controls_GRCh37_Lifted
+  --vcf /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/6_Final_Lifted_VCF_File_With_StartingInfo.vcf
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover
+Start time: Tue Dec 24 11:22:34 2024
+
+Random number seed: 1735019554
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+Error: Multiple instances of '_' in sample ID.
+If you do not want '_' to be treated as a FID/IID delimiter, use --double-id or
+--const-fid to choose a different method of converting VCF sample IDs to PLINK
+IDs, or --id-delim to change the FID/IID delimiter.
+
+End time: Tue Dec 24 11:22:34 2024

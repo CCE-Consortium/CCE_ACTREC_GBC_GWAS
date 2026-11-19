@@ -1,0 +1,40 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --const-fid FIDFID
+  --make-bed
+  --out /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES
+  --vcf /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/6_Final_Lifted_VCF_File_With_StartingInfo.vcf
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover
+Start time: Tue Dec 24 12:32:52 2024
+
+Random number seed: 1735023772
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+--vcf:
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES-temporary.bed
++
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES-temporary.bim
++
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES-temporary.fam
+written.
+738491 variants loaded from .bim file.
+2583 people (0 males, 0 females, 2583 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2583 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.985178.
+738491 variants and 2583 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES.bed
++
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES.bim
++
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES.fam
+... done.
+
+End time: Tue Dec 24 12:33:17 2024

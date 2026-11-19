@@ -1,0 +1,33 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/BRC_OnlyControls_AllCHRs_LiftoverVerifiedSNPs_ONLY_GRCh38-Build
+  --out /DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/2_Converted_To_VCF_For_ChangingBPpos
+  --recode vcf
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/Haplotypes_Exploration/HaplotypeBlocks_Covariates_Dec2024
+Start time: Mon Dec 23 14:15:34 2024
+
+Random number seed: 1734943534
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+738491 variants loaded from .bim file.
+2583 people (0 males, 2583 females) loaded from .fam.
+2583 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2583 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.987479.
+738491 variants and 2583 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 2583 are controls.
+Warning: Underscore(s) present in sample IDs.
+--recode vcf to
+/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/2_Converted_To_VCF_For_ChangingBPpos.vcf
+... done.
+Warning: At least one VCF allele code violates the official specification;
+other tools may not accept the file.  (Valid codes must either start with a
+'<', only contain characters in {A,C,G,T,N,a,c,g,t,n}, be an isolated '*', or
+represent a breakend.)
+
+End time: Mon Dec 23 14:15:50 2024
