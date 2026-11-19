@@ -1,0 +1,37 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/8_RemovingSNPs/5_snpsOnly_acgt
+  --geno 0.005
+  --maf 0.005
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/8_RemovingSNPs
+Start time: Thu Mar 20 14:30:28 2025
+
+Random number seed: 1742461228
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+18105230 variants loaded from .bim file.
+6634 people (0 males, 0 females, 6634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 6634 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is exactly 1.
+0 variants removed due to missing genotype data (--geno).
+8388651 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+9716579 variants and 6634 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/9_PostImpute_SNPs-QC/6_PostImp-SNPsQC_maf-n-geno_0.005.fam
+... done.
+
+End time: Thu Mar 20 14:31:33 2025
