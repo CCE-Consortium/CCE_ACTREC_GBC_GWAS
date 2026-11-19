@@ -1,0 +1,40 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --double-id
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/3_ConvertedToBED/chr_1_Phased_Imputed
+  --vcf /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/2_BeagleOutput/chr_1_Phased_Imputed.vcf.gz
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_Old/QC-Steps/3_ReDo_GBC_Final/Old-QC_SamplesFrozen/Alignment/Using_Beagle/2_BeagleOutput
+Start time: Mon Mar 17 10:31:40 2025
+
+Random number seed: 1742187700
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+--vcf:
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/3_ConvertedToBED/chr_1_Phased_Imputed-temporary.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/3_ConvertedToBED/chr_1_Phased_Imputed-temporary.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/3_ConvertedToBED/chr_1_Phased_Imputed-temporary.fam
+written.
+2428653 variants loaded from .bim file.
+6634 people (0 males, 0 females, 6634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/3_ConvertedToBED/chr_1_Phased_Imputed.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 6634 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99969.
+2428653 variants and 6634 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/3_ConvertedToBED/chr_1_Phased_Imputed.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/3_ConvertedToBED/chr_1_Phased_Imputed.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/3_ConvertedToBED/chr_1_Phased_Imputed.fam
+... done.
+
+End time: Mon Mar 17 10:36:32 2025
