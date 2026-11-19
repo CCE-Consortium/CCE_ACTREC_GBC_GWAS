@@ -1,1 +1,1 @@
-
+Gene-based association analysis using MAGMA to identify gene-level associations from GWAS data, followed by Enrichr for functional enrichment and biological pathway analysis to interpret associated genes.
