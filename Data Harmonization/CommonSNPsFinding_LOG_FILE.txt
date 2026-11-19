@@ -1,0 +1,146 @@
+Enter the paths to all the BIM files for common SNPs extraction, separated with a COMMA starting with the MAIN bim file	:	Enter the output path where the EXTRACT file & Common SNPs CSV file will be saved	:	Enter the full path to the PLINK 1.9 executable	:	Enter the name for the output BED fileset containing only the common variants from all the BIM files	:	PLINK v1.90b7.2 64-bit (11 Dec 2023)           www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_Dec2024_Proj-Output.log.
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/ProjectFiles/Dec2024_Proj-Output/PLINK_091224_1103/Dec2024_Proj-Output
+  --extract /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/Common-SNPs-EXTRACT-file_Combined_UNCLEAN_GBC-new_BMC_BRC_LC_OPC.extract
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_Dec2024_Proj-Output
+
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+654027 variants loaded from .bim file.
+1440 people (467 males, 973 females) loaded from .fam.
+1440 phenotype values loaded from .fam.
+--extract: 654027 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1440 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.991201.
+654027 variants and 1440 people pass filters and QC.
+Among remaining phenotypes, 1440 are cases and 0 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_Dec2024_Proj-Output.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_Dec2024_Proj-Output.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_Dec2024_Proj-Output.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b7.2 64-bit (11 Dec 2023)           www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_BMC.log.
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/ProjectFiles/OtherProjects_ForControls/BMC/BMC
+  --extract /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/Common-SNPs-EXTRACT-file_Combined_UNCLEAN_GBC-new_BMC_BRC_LC_OPC.extract
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_BMC
+
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+654027 variants loaded from .bim file.
+4608 people (4047 males, 561 females) loaded from .fam.
+4608 phenotype values loaded from .fam.
+--extract: 654027 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 4608 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.991463.
+654027 variants and 4608 people pass filters and QC.
+Among remaining phenotypes, 2199 are cases and 2409 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_BMC.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_BMC.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_BMC.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b7.2 64-bit (11 Dec 2023)           www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES.log.
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/ProjectFiles/OtherProjects_ForControls/BRC/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES
+  --extract /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/Common-SNPs-EXTRACT-file_Combined_UNCLEAN_GBC-new_BMC_BRC_LC_OPC.extract
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES
+
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+738491 variants loaded from .bim file.
+2583 people (0 males, 2583 females) loaded from .fam.
+2583 phenotype values loaded from .fam.
+--extract: 650490 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2583 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.990204.
+650490 variants and 2583 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 2583 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b7.2 64-bit (11 Dec 2023)           www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_LC.log.
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/ProjectFiles/OtherProjects_ForControls/LC/LC
+  --extract /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/Common-SNPs-EXTRACT-file_Combined_UNCLEAN_GBC-new_BMC_BRC_LC_OPC.extract
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_LC
+
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+654027 variants loaded from .bim file.
+1296 people (556 males, 740 females) loaded from .fam.
+1296 phenotype values loaded from .fam.
+--extract: 654027 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1296 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.989248.
+654027 variants and 1296 people pass filters and QC.
+Among remaining phenotypes, 796 are cases and 500 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_LC.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_LC.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_LC.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b7.2 64-bit (11 Dec 2023)           www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_2_removed.log.
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/ProjectFiles/OtherProjects_ForControls/OPC/2_removed
+  --extract /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/Common-SNPs-EXTRACT-file_Combined_UNCLEAN_GBC-new_BMC_BRC_LC_OPC.extract
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_2_removed
+
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+PLINK v1.90b7.2 64-bit (11 Dec 2023)           www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/All_BED-FileSets_MERGED.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/CommonSNPsExtracted_Dec2024_Proj-Output
+  --make-bed
+  --merge-list /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/MergeList_ExcludingFirstBIMFile.txt
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/1_FindingCommonSNPs/All_BED-FileSets_MERGED
+
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+
+-------------------------------------------------------
+
+Processed	:	Dec2024_Proj-Output.bim	BIM file
+Processed	:	BMC.bim	BIM file
+Processed	:	8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES.bim	BIM file
+Processed	:	LC.bim	BIM file
+Processed	:	2_removed.bim	BIM file
+
+-------------------------------------------------------
+
+Merged df at index 0 with those at index	1	and	2
+Merged df at index 0 with those at index	2	and	3
+Merged df at index 0 with those at index	3	and	4
+
+-------------------------------------------------------
+
