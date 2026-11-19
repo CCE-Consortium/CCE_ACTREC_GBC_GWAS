@@ -1,0 +1,26 @@
+BRC		:		/DATA/Current_Working_Space/BRC_ProjFiles_Dec2024/QC_Steps/2.2_Performing_Actual_Liftover/8_BRC-Controls_GRCh37_Lifted_VCF_DELIMITTER_ISSUES
+		:		Final Lifted Over Project File - ONLY CONTROLS - With FAM file's FID, IID, Gender & Phenos fixed as per PLINK
+		
+		
+BMC		:		/DATA/Current_Working_Space/BMC_Data_Files/BED_FileSets/StudyFile/Cleaning_ReEnactment/3rdReEnactment_BMC_PlinkProj_250522-0721_ProjectFiles/Temp_ForExtracting_CopyOf_PedMapfiles.tar.gz_File/PedMapfiles
+		:		Study File from GenomeStudio
+				Originally kept at this location	:	Z:\allcbl\BMC\PLINK_250522_0721
+				
+				
+LC		:		/DATA/Current_Working_Space/LungCancer_CombinationProject_Jan2024/Original_Project_Files-StraigthFromGenomeStudio/LungCancer/PLINK_290622_1012
+		:		Study File from GenomeStudio
+				Originally kept at this location	:	Z:\allcbl\LC\LC\PLINK_290622_1012
+				
+				
+OPC		:		/DATA/Current_Working_Space/BMC_OPC_Latest_July2024/DataFiles/OriginalProjFiles/OPC_A
+		:		Study File from GenomeStudio
+				Originally kept at this location	:	Z:\Consolidated -BMC OPC\PLINK_230822_0347
+				Removing BMC cases from this one	:	Remove_OPC_26.06.2024_A1.xlsx
+				Resulting File Only OPC Samples		:	/DATA/Current_Working_Space/BMC_OPC_Latest_July2024/QCSteps/1_Pre-Alignment/2_removed.bed .bim .fam
+
+
+GBC		:		/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/ProjectFiles/Dec2024_Proj-Output/PLINK_091224_1103
+		:		Study file from GenomeStudio, converted to BED fileset format
+		:		Originally kept at this location	:	O:\GWAS -GBC\GBC GWAS Phase 2\ConsolidatedGBCP2V1\Dec2024_Proj-Output\PLINK_091224_1103
+
+
