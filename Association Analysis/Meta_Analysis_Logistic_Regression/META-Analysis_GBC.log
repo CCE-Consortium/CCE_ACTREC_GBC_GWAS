@@ -1,0 +1,28 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --meta-analysis /DATA/Current_Working_Space/GBC_New_Phase2/Assoc_Results/PostImputation/UsingBeagle/maf_0.005-PostImputeQC_With-HLA/3_G2_N_1875_BeagleImp_Study_MichiHLA_Merged_FullyCleaned_PostImpQC-maf-geno-0.005_Logistic_Age_Gen_10PCs_OR.assoc.logistic_ForPLINK-MetaAnalysis.TabSep /DATA/Current_Working_Space/GBC_Old/Results/AssocResults/3rdQC_SamplesFrozen_Beagle_PostImpQC-maf-geno-0.005_with-HLA/3_G1_O_48_BeagleImp_Study_MichiHLA_Merged_FullyCleaned_PostImpQC_maf-geno-0.005_Logistic_Age_Gen_10PCs_OR.assoc.logistic_ForPLINK-MetaAnalysis.TabSep + study report-all weighted-z
+  --meta-analysis-a1-field A1_MinorAllele
+  --meta-analysis-a2-field A2_MajorAllele
+  --meta-analysis-bp-field BP
+  --meta-analysis-chr-field CHR
+  --meta-analysis-ess-field NMISS
+  --meta-analysis-p-field P
+  --meta-analysis-report-dups
+  --meta-analysis-se-field SE
+  --meta-analysis-snp-field MarkerID
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Assoc_Results/PostImputation/UsingBeagle/maf_0.005-PostImputeQC_With-HLA/META-with_G1-O-48-WithHLA/G2_N_1875_withHLA_META-with_G1_O_48_withHLA_BothBeagle
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Assoc_Results/PostImputation/UsingBeagle/maf_0.005-PostImputeQC_With-HLA/META-with_G1-O-48-WithHLA
+Start time: Sat Mar 22 14:45:01 2025
+
+Random number seed: 1742634901
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+--meta-analysis: 620 problematic lines; see
+/DATA/Current_Working_Space/GBC_New_Phase2/Assoc_Results/PostImputation/UsingBeagle/maf_0.005-PostImputeQC_With-HLA/META-with_G1-O-48-WithHLA/G2_N_1875_withHLA_META-with_G1_O_48_withHLA_BothBeagle.prob
+.
+--meta-analysis: 10121359 variants processed; results written to
+/DATA/Current_Working_Space/GBC_New_Phase2/Assoc_Results/PostImputation/UsingBeagle/maf_0.005-PostImputeQC_With-HLA/META-with_G1-O-48-WithHLA/G2_N_1875_withHLA_META-with_G1_O_48_withHLA_BothBeagle.meta
+.
+
+End time: Sat Mar 22 14:47:43 2025

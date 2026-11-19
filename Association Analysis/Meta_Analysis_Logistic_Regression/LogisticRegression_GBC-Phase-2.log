@@ -1,0 +1,31 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/8th_ONWARDS_NEW/13_MergedWithHLA/2_Cleaning/3_G2_N_1875_BeagleImp_Study_MichiHLA_Merged_FullyCleaned_PostImpQC-maf-geno-0.005
+  --covar /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/QC_maf_0.05_Regular_Data_PCA_Output/COVAR_FILE_7101Samples_PCA-maf-0.05_regular_10PCs_Age_Gen.covar keep-pheno-on-missing-cov
+  --logistic hide-covar
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Assoc_Results/PostImputation/UsingBeagle/maf_0.005-PostImputeQC_With-HLA/3_G2_N_1875_BeagleImp_Study_MichiHLA_Merged_FullyCleaned_PostImpQC-maf-geno-0.005_Logistic_Age_Gen_10PCs_OR
+  --perm-batch-size 512
+  --seed 3800109803
+  --threads 10
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Assoc_Results/PostImputation/UsingBeagle/maf_0.005-PostImputeQC_With-HLA
+Start time: Fri Mar 21 13:24:10 2025
+
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+9696469 variants loaded from .bim file.
+6154 people (2714 males, 3440 females) loaded from .fam.
+6154 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 12 covariates loaded.
+2 people had missing value(s).
+Before main variant filters, 6154 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999999.
+9696469 variants and 6154 people pass filters and QC.
+Among remaining phenotypes, 1061 are cases and 5093 are controls.
+Writing logistic model association results to
+/DATA/Current_Working_Space/GBC_New_Phase2/Assoc_Results/PostImputation/UsingBeagle/maf_0.005-PostImputeQC_With-HLA/3_G2_N_1875_BeagleImp_Study_MichiHLA_Merged_FullyCleaned_PostImpQC-maf-geno-0.005_Logistic_Age_Gen_10PCs_OR.assoc.logistic
+... done.
+
+End time: Fri Mar 21 15:54:09 2025
