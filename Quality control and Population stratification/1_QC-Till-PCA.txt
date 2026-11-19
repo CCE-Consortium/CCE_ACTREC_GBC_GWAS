@@ -1,0 +1,289 @@
+
+
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/2_MergingDataSets/All_BED-FileSets_MERGED_Post-MSSNP-Cleaning
+  --geno 0.05
+  --maf 0.05
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/1_maf_geno
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning
+Start time: Thu Dec 26 11:08:56 2024
+
+Random number seed: 1735191536
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+643526 variants loaded from .bim file.
+7101 people (3035 males, 4066 females) loaded from .fam.
+7101 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 7101 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 158122 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/1_maf_geno.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.990166.
+6956 variants removed due to missing genotype data (--geno).
+316505 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+320065 variants and 7101 people pass filters and QC.
+Among remaining phenotypes, 1440 are cases and 5661 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/1_maf_geno.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/1_maf_geno.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/1_maf_geno.fam
+... done.
+
+End time: Thu Dec 26 11:09:00 2024
+
+___________________________________________________________________
+
+
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/1_maf_geno
+  --hwe 0.000001 midp
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/2_hwe_midp
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning
+Start time: Thu Dec 26 11:26:32 2024
+
+Random number seed: 1735192592
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+320065 variants loaded from .bim file.
+7101 people (3035 males, 4066 females) loaded from .fam.
+7101 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 7101 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 141465 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/2_hwe_midp.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.996578.
+Warning: --hwe observation counts vary by more than 10%, due to the X
+chromosome.  You may want to use a less stringent --hwe p-value threshold for X
+chromosome variants.
+--hwe: 1472 variants removed due to Hardy-Weinberg exact test.
+318593 variants and 7101 people pass filters and QC.
+Among remaining phenotypes, 1440 are cases and 5661 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/2_hwe_midp.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/2_hwe_midp.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/2_hwe_midp.fam
+... done.
+
+End time: Thu Dec 26 11:26:35 2024
+
+___________________________________________________________________
+
+
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/2_hwe_midp
+  --make-bed
+  --mind 0.05
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/3_mind
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning
+Start time: Thu Dec 26 11:52:35 2024
+
+Random number seed: 1735194155
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+318593 variants loaded from .bim file.
+7101 people (3035 males, 4066 females) loaded from .fam.
+7101 phenotype values loaded from .fam.
+95 people removed due to missing genotype data (--mind).
+IDs written to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/3_mind.irem
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 7006 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 126679 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/3_mind.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate in remaining samples is 0.997823.
+318593 variants and 7006 people pass filters and QC.
+Among remaining phenotypes, 1430 are cases and 5576 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/3_mind.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/3_mind.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/3_SNPs_Indivs_QC_Cleaning/3_mind.fam
+... done.
+
+End time: Thu Dec 26 11:52:38 2024
+
+___________________________________________________________________
+
+
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind
+  --genome
+  --max 1
+  --min 0.1875
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind_CryptRel
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt
+Start time: Fri Dec 27 16:13:44 2024
+
+Random number seed: 1735296224
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+318593 variants loaded from .bim file.
+7006 people (2989 males, 4017 females) loaded from .fam.
+7006 phenotype values loaded from .fam.
+Using up to 11 threads (change this with --threads).
+Before main variant filters, 7006 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 126679 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind_CryptRel.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.997823.
+318593 variants and 7006 people pass filters and QC.
+Among remaining phenotypes, 1430 are cases and 5576 are controls.
+Excluding 17826 variants on non-autosomes from IBD calculation.
+IBD calculations complete.
+Finished writing
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind_CryptRel.genome
+.
+
+End time: Fri Dec 27 16:16:32 2024
+
+___________________________________________________________________
+
+
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind
+  --check-sex
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind_Gender
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt
+Start time: Fri Dec 27 16:13:44 2024
+
+Random number seed: 1735296224
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+318593 variants loaded from .bim file.
+7006 people (2989 males, 4017 females) loaded from .fam.
+7006 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 7006 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 126679 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind_Gender.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.997823.
+318593 variants and 7006 people pass filters and QC.
+Among remaining phenotypes, 1430 are cases and 5576 are controls.
+--check-sex: 17321 Xchr and 0 Ychr variant(s) scanned, 77 problems detected.
+Report written to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind_Gender.sexcheck
+.
+
+End time: Fri Dec 27 16:13:45 2024
+
+___________________________________________________________________
+
+
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/4_gender
+  --remove /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind_Gender_Problems_RemovalList.txt
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt
+Start time: Fri Dec 27 16:34:44 2024
+
+Random number seed: 1735297484
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+318593 variants loaded from .bim file.
+7006 people (2989 males, 4017 females) loaded from .fam.
+7006 phenotype values loaded from .fam.
+--remove: 6958 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 6958 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 120177 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/4_gender.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate in remaining samples is 0.997829.
+318593 variants and 6958 people pass filters and QC.
+Among remaining phenotypes, 1417 are cases and 5541 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/4_gender.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/4_gender.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/4_gender.fam
+... done.
+
+End time: Fri Dec 27 16:34:47 2024
+
+___________________________________________________________________
+
+
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/4_gender
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/5_cryptic
+  --remove /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt/3_mind_CryptRel_RemovalList.txt
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/4_Gender_Crypt
+Start time: Fri Dec 27 16:34:55 2024
+
+Random number seed: 1735297495
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+318593 variants loaded from .bim file.
+6958 people (2987 males, 3971 females) loaded from .fam.
+6958 phenotype values loaded from .fam.
+--remove: 6695 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 6695 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 108165 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/5_cryptic.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate in remaining samples is 0.997852.
+318593 variants and 6695 people pass filters and QC.
+Among remaining phenotypes, 1385 are cases and 5310 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/5_cryptic.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/5_cryptic.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/5_Cleaning_Gen-Crypt/5_cryptic.fam
+... done.
+
+End time: Fri Dec 27 16:34:58 2024
+
+___________________________________________________________________

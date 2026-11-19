@@ -1,0 +1,129 @@
+ 
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/5_cryptic
+  --list-duplicate-vars
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/1_snps_acgt_5_cryptic
+  --snps-only just-acgt
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/QC_maf_0.05_Regular_Data_PCA_Output
+Start time: Mon Dec 30 08:32:27 2024
+
+Random number seed: 1735527747
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+318593 variants loaded from .bim file.
+6695 people (2871 males, 3824 females) loaded from .fam.
+6695 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 6695 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 108165 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/1_snps_acgt_5_cryptic.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.997852.
+318593 variants and 6695 people pass filters and QC.
+Among remaining phenotypes, 1385 are cases and 5310 are controls.
+--list-duplicate-vars report written to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/1_snps_acgt_5_cryptic.dupvar
+.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/1_snps_acgt_5_cryptic.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/1_snps_acgt_5_cryptic.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/1_snps_acgt_5_cryptic.fam
+... done.
+
+End time: Mon Dec 30 08:32:30 2024
+
+__________________________________________________
+
+
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/1_snps_acgt_5_cryptic
+  --exclude /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/1_snps_acgt_5_cryptic.dupvar
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/2_dupliSNPs_5_cryptic
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/QC_maf_0.05_Regular_Data_PCA_Output
+Start time: Mon Dec 30 08:33:00 2024
+
+Random number seed: 1735527780
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+318593 variants loaded from .bim file.
+6695 people (2871 males, 3824 females) loaded from .fam.
+6695 phenotype values loaded from .fam.
+--exclude: 317575 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 6695 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 106021 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/2_dupliSNPs_5_cryptic.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.997854.
+317575 variants and 6695 people pass filters and QC.
+Among remaining phenotypes, 1385 are cases and 5310 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/2_dupliSNPs_5_cryptic.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/2_dupliSNPs_5_cryptic.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/2_dupliSNPs_5_cryptic.fam
+... done.
+
+End time: Mon Dec 30 08:33:02 2024
+
+
+__________________________________________________
+
+
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/2_dupliSNPs_5_cryptic
+  --exclude /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/ZeroChrSNPs_RemovalList.txt
+  --make-bed
+  --out /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/3_Cleaned_ForPCA_5_cryptic
+
+Hostname: PLINKGLU
+Working directory: /DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/QC_maf_0.05_Regular_Data_PCA_Output
+Start time: Mon Dec 30 08:33:34 2024
+
+Random number seed: 1735527814
+201309 MB RAM detected; reserving 100654 MB for main workspace.
+317575 variants loaded from .bim file.
+6695 people (2871 males, 3824 females) loaded from .fam.
+6695 phenotype values loaded from .fam.
+--exclude: 317575 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 6695 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 106021 het. haploid genotypes present (see
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/3_Cleaned_ForPCA_5_cryptic.hh
+); many commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.997854.
+317575 variants and 6695 people pass filters and QC.
+Among remaining phenotypes, 1385 are cases and 5310 are controls.
+--make-bed to
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/3_Cleaned_ForPCA_5_cryptic.bed
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/3_Cleaned_ForPCA_5_cryptic.bim
++
+/DATA/Current_Working_Space/GBC_New_Phase2/Data_Files/QC_Steps/6_PCA/3_Cleaned_ForPCA_5_cryptic.fam
+... done.
+
+End time: Mon Dec 30 08:33:37 2024
+
+
+__________________________________________________
