@@ -1,0 +1,48 @@
+Enter the FULL path of the BIM file, with the 	.bim	 extension
+The BED & FAM files should be in the same location, with the same name
+
+		Enter:	Enter	37	if converting from GRCh37		OR
+Enter	38	if converting from GRCh38
+
+		Enter	:	Enter the full path to the CORRESPONDING liftover chain path file with the extensions	over.chain.gz	for this liftover	:	Enter the path to the output folder where the lifted BIM file etc will be saved	:	
+------------------
+The original BIM file had	743173	base pair positions.
+Upon conversion, the BIM file has the following number of SNPs, that were not converted from	GRCh38	to	GRCh37	:	40237
+------------------
+
+Enter	Y	if you want to enter another BIM file, with the	GRCh37	build number,
+and preferably with the same type of SNP Ids, or rsIDs, to extract the base pair position of the above problematic SNPs
+		:		Enter the full path to such a BIM file	Build	--	GRCh37	:	
+----------------------------
+There are a total of	743173	base pairs in the lifted BIM file
+There are a total of	654027	base pairs in the reference BIM file
+-------------------------
+
+74318 Base pairs - 	10%	 - have been checked. 206 problematic SNPs found, out of which 3 have been fixed using the reference & 203 problematic sites still remain
+74318 Base pairs - 	20%	 - have been checked. 1 problematic SNPs found, out of which 1 have been fixed using the reference & 0 problematic sites still remain
+74318 Base pairs - 	30%	 - have been checked. 2 problematic SNPs found, out of which 0 have been fixed using the reference & 2 problematic sites still remain
+74318 Base pairs - 	40%	 - have been checked. 357 problematic SNPs found, out of which 0 have been fixed using the reference & 357 problematic sites still remain
+74318 Base pairs - 	50%	 - have been checked. 3257 problematic SNPs found, out of which 11 have been fixed using the reference & 3246 problematic sites still remain
+74318 Base pairs - 	60%	 - have been checked. 1090 problematic SNPs found, out of which 2 have been fixed using the reference & 1088 problematic sites still remain
+74318 Base pairs - 	70%	 - have been checked. 1 problematic SNPs found, out of which 1 have been fixed using the reference & 0 problematic sites still remain
+74318 Base pairs - 	80%	 - have been checked. 5 problematic SNPs found, out of which 4 have been fixed using the reference & 1 problematic sites still remain
+74318 Base pairs - 	90%	 - have been checked. 990 problematic SNPs found, out of which 7 have been fixed using the reference & 983 problematic sites still remain
+A total of 5909 probematic sites were found, with Base pair positions still as per GRCh38. 29 sites were fixed using the reference BIM file & 5880 sites still remain problematic
+
+Length of Modded Chr, BP, SNP, A1, A2	:	743173	743173	743173	743173	743173
+   CHR                      SNP  Morgans      BP A1 A2
+0    1  15:75436134-75436134del      0.0       0  0  I
+1    1                rs9651229      0.0  567667  0  G
+2    1                rs9701872      0.0  568208  G  A
+3    1               rs11497407      0.0  568527  0  G
+4    1          GSA-rs116587930      0.0  727841  A  G
+        CHR          SNP  Morgans     BP A1 A2
+743168   26  rs142662828    100.0  16456  A  G
+743169   26   chrM_16465    100.0  16465  A  G
+743170   26    200610-37    100.0  16482  G  A
+743171   26    rs3937033    100.0  16519  A  G
+743172   26  rs386829316    100.0  16527  A  G
+
+----------------------------
+There are a total of	743173	base pair positions.
+Upon modding, the BIM file has the following number of SNPs, that were still not converted from	GRCh38	to	GRCh37	:	1361
