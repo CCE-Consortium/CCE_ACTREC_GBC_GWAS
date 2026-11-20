@@ -1,6 +1,5 @@
 # CCE_ACTREC_GBC_GWAS
 
-
 [![Research](https://img.shields.io/badge/Research-GWAS-blue)](https://github.com/CCE-Consortium/CCE_ACTREC_GBC_GWAS)
 [![Analysis](https://img.shields.io/badge/Analysis-Genetic%20Association-success)](https://github.com/CCE-Consortium/CCE_ACTREC_GBC_GWAS)
 [![Languages](https://img.shields.io/badge/Languages-R%20%7C%20Python%20%7C%20Stata-informational)](https://github.com/CCE-Consortium/CCE_ACTREC_GBC_GWAS)
@@ -16,6 +15,7 @@ A research repository containing computational workflows, scripts, configuration
 - [Analysis Workflow](#analysis-workflow)
 - [Repository Structure](#repository-structure)
 - [Methods and Analysis Components](#methods-and-analysis-components)
+- [PheWAS and Mendelian Randomization (MR) Analysis](#7-phewas-and-mendelian-randomization-mr-analysis)
 - [Software and Tools](#software-and-tools)
 - [Reproducibility and Usage](#reproducibility-and-usage)
 - [Data Availability and Privacy](#data-availability-and-privacy)
@@ -123,6 +123,16 @@ The gene-based analysis directory contains an R script for processing MAGMA gene
 ### 6. Functional annotation and downstream analyses
 
 FUMA configuration files are provided for functional annotation and Gene2Function workflows. The repository also has a directory for PheWAS and Mendelian randomization/mediation analysis materials. Confirm which result files and scripts are currently available before interpreting or reproducing these downstream analyses.
+
+### 7. PheWAS and Mendelian Randomization (MR) Analysis
+
+PheWAS and Mendelian Randomization (MR) are complementary downstream approaches that can help investigate the broader phenotypic associations of genetic variants and explore potential causal relationships between exposures and outcomes.
+
+For researchers who would like to refer to the code and workflow for **PheWAS and MR analyses**, the following repository is provided as an additional resource:
+
+- **PheWAS and MR analysis code:** [MRCIEU/gbc-mr](https://github.com/MRCIEU/gbc-mr)
+
+Please refer to the linked repository for the relevant code, implementation details, and instructions for these analyses. This resource is provided as a reference for researchers interested in conducting or adapting PheWAS and MR analyses; it is separate from the main GWAS workflow documented in this repository.
 
 ## Software and Tools
 
